@@ -12,8 +12,8 @@ Funcionalidade: Criar novo evento
     Quando eu vou para o formulario Cadastrar Evento
     E preencho o nome com "<nome>"
     E a descricao com "<descricao>"
-    E o local
-    E a data de inicio
+    E o local com "<local>"
+    E a data de inicio com "<data_inicio>"
     E a data termino
     E a rua
     E o numero
@@ -24,8 +24,8 @@ Funcionalidade: Criar novo evento
     E deve enviar um email de confirmacao do cadastro do evento
   
     Exemplos:
-    |nome                      |descricao|
-    |Show da Madonna           |Madonna vem ao Brasil com seu novo show|
-    |Trair e coçar é só começar|Peça recordista de publico|
+    |nome                      |descricao                              |local          |data_inicio|
+    |Show da Madonna           |Madonna vem ao Brasil com seu novo show|Estadio Morumbi|21/01/2011 |
+    |Trair e coçar é só começar|Peça recordista de publico             |Teatro Gazeta  |02/12/2011 |
 
   Cenario: Confirmacao de evento

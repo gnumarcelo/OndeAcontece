@@ -1,5 +1,6 @@
 <%= form_for :evento, :url => { :action  => 'create' } do |f| %>
   Nome: <%= f.text_field :nome %><br>
-  Descrição: <%= f.text_field :descricao %><br>
+  Descrição: <%= f.text_area :descricao %><br>
+  Local: <%= f.text_field :local %><br>
+  Data inicio: <%= f.text_field :data_inicio %><br>
 <%end%>
-
