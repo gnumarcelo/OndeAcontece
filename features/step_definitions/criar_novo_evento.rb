@@ -22,3 +22,7 @@ Quando /^a data de inicio com "([^"]*)"$/ do |data_inicio|
   fill_in "evento[data_inicio]", :with => data_inicio
 end
 
+Quando /^a data termino com "([^"]*)"$/ do |data_termino|
+  fill_in "evento[data_termino]", :with => data_termino
+end
+
