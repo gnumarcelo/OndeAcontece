@@ -1,0 +1,159 @@
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 13:53:17.461745', '2011-01-24 13:53:17.461745')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:00:21.086974', '2011-01-24 14:00:21.086974')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (1.4ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:02:40.938444', '2011-01-24 14:02:40.938444')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:03:46.221913', '2011-01-24 14:03:46.221913')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:10:08.325925', '2011-01-24 14:10:08.325925')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:13:02.941840', '2011-01-24 14:13:02.941840')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:17:53.433418', '2011-01-24 14:17:53.433418')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:24:37.009658', '2011-01-24 14:24:37.009658')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:24:37 -0200
+  Processing by EventosController#index as HTML
+Completed   in 46ms
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:25:48.786042', '2011-01-24 14:25:48.786042')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:25:48 -0200
+  Processing by EventosController#index as HTML
+Completed   in 39ms
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:27:45.143644', '2011-01-24 14:27:45.143644')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:27:45 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:29:56.802965', '2011-01-24 14:29:56.802965')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:29:56 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 12:29:57 -0200
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:30:57.808211', '2011-01-24 14:30:57.808211')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:30:57 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 12:30:58 -0200
+  Processing by EventosController#new as HTML
+Completed   in 36ms
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "eventos" ("created_at", "updated_at") VALUES ('2011-01-24 14:31:57.192038', '2011-01-24 14:31:57.192038')
+
+
+Started GET "/eventos" for 127.0.0.1 at 2011-01-24 12:31:57 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 12:31:57 -0200
+  Processing by EventosController#new as HTML
+Rendered eventos/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-01-24 13:03:58 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 13:03:58 -0200
+  Processing by EventosController#new as HTML
+Rendered eventos/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-01-24 14:41:34 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 14:41:34 -0200
+  Processing by EventosController#new as HTML
+Rendered eventos/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-01-24 14:43:40 -0200
+  Processing by EventosController#index as HTML
+Rendered eventos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 14:43:40 -0200
+  Processing by EventosController#new as HTML
+Rendered eventos/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-01-24 14:43:40 -0200
+  Processing by EventosController#index as HTML
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2011-01-24 14:43:40 -0200
+  Processing by EventosController#new as HTML
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)

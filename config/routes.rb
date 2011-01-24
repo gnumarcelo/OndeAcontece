@@ -1,4 +1,8 @@
 OndeAcontece::Application.routes.draw do
+  root :to => "eventos#index"
+  resources :eventos
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

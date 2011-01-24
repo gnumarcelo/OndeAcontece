@@ -1,11 +1,12 @@
-Dado /^um evento Show do U(\d+)$/ do |arg1|
-
+Dado /^que eu estou na pagina inicial$/ do
+  visit "/"
 end
 
-Quando /^eu aperto o botao salvar$/ do
-
+Quando /^eu vou para o formulario Cadastrar Evento$/ do
+  click_link "Adicionar evento"
 end
 
-Entao /^deve aparecer a mensagem Evento cadastrado com sucesso$/ do
-
+Quando /^preencho o nome$/ do |nome|
+  fill_in "evento[nome]", :with => nome
 end
+
