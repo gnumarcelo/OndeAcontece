@@ -1,2 +1,3 @@
 features/tracker.yml
 log/*
+webrat.log
