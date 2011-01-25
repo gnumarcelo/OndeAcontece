@@ -1,3 +1,4 @@
 features/tracker.yml
-log/*
+log/development.log
+log/test.log
 webrat.log

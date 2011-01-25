@@ -34,3 +34,8 @@ Quando /^o numero "([^"]*)"$/ do |numero|
   fill_in "evento[numero]", :with => numero
 end
 
+Quando /^a cidade "([^"]*)"$/ do |cidade|
+  fill_in "evento[cidade]", :with => cidade
+end
+
+
