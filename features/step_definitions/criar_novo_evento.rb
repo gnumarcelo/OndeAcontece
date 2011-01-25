@@ -26,3 +26,6 @@ Quando /^a data termino com "([^"]*)"$/ do |data_termino|
   fill_in "evento[data_termino]", :with => data_termino
 end
 
+Quando /^a rua com "([^"]*)"$/ do |rua|
+  fill_in "evento[rua]", :with => rua
+end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110124175321) do
+ActiveRecord::Schema.define(:version => 20110125025046) do
 
   create_table "eventos", :force => true do |t|
     t.datetime "created_at"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20110124175321) do
     t.string   "local"
     t.date     "data_inicio"
     t.date     "data_termino"
+    t.string   "rua"
   end
 
 end
