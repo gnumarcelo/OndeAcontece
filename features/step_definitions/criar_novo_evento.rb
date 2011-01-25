@@ -29,3 +29,8 @@ end
 Quando /^a rua com "([^"]*)"$/ do |rua|
   fill_in "evento[rua]", :with => rua
 end
+
+Quando /^o numero "([^"]*)"$/ do |numero|
+  fill_in "evento[numero]", :with => numero
+end
+
