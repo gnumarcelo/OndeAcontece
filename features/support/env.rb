@@ -23,6 +23,7 @@ end
 
 World(Rack::Test::Methods)
 World(Webrat::Methods)
+World(Webrat::Matchers)
 
 # If you set this to false, any error raised from within your app will bubble 
 # up to your step definition and out to cucumber unless you catch it somewhere
