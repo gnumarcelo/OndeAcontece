@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110204124802) do
+ActiveRecord::Schema.define(:version => 20110204134547) do
 
   create_table "eventos", :force => true do |t|
     t.datetime "created_at"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20110204124802) do
     t.string   "cidade"
     t.string   "estado"
     t.string   "email"
+    t.boolean  "pendente"
   end
 
 end

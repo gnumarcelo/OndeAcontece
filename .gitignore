@@ -2,3 +2,4 @@ features/tracker.yml
 log/development.log
 log/test.log
 webrat.log
+tmp/*

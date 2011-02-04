@@ -20,12 +20,13 @@ Funcionalidade: Criar novo evento
     E a cidade com "<cidade>"
     E o estado com "<estado>"
     E o meu email com "<email>" para confirmacao
-    Entao deve aparecer a mensagem Evento cadastrado com sucesso
-    E deve enviar um email de confirmacao do cadastro do evento
+    E clico no botao "Cadastrar"
+    Entao deve enviar um email de confirmacao do cadastro do evento
+    E deve aparecer a mensagem "<mensagem>"
   
     Exemplos:
-    |nome                      |descricao                              |local          |data_inicio|data_termino|rua              |numero|cidade        |estado|email|
-    |Show da Madonna           |Madonna vem ao Brasil com seu novo show|Estadio Morumbi|21/01/2011 |15/02/2011  |Rangel Pestana   |123   |São Paulo     |SP    |a@a.com|
-    |Trair e coçar é só começar|Peça recordista de publico             |Teatro Gazeta  |02/12/2011 |04/12/2011  |Manoel da Nobrega|1564  |Rio de Janeiro|RJ    |b@b.com|
+    |nome                      |descricao                              |local          |data_inicio|data_termino|rua              |numero|cidade        |estado|email  |mensagem                     |
+    |Show da Madonna           |Madonna vem ao Brasil com seu novo show|Estadio Morumbi|21/01/2011 |15/02/2011  |Rangel Pestana   |123   |São Paulo     |SP    |a@a.com|Evento cadastrado com sucesso|
+    |Trair e coçar é só começar|Peça recordista de publico             |Teatro Gazeta  |02/12/2011 |04/12/2011  |Manoel da Nobrega|1564  |Rio de Janeiro|RJ    |b@b.com|Evento cadastrado com sucesso|
 
   Cenario: Confirmacao de evento

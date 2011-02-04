@@ -46,6 +46,20 @@ Quando /^o meu email com "([^"]*)" para confirmacao$/ do |email|
   fill_in "evento[email]", :with => email
 end
 
+Quando /^clico no botao "([^"]*)"$/ do |botao|
+  click_button botao
+end
+
+Entao /^deve enviar um email de confirmacao do cadastro do evento$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Entao /^deve aparecer a mensagem "([^"]*)"$/ do |mensagem|
+#  save_and_open_page
+  response.should contain(mensagem)
+end
+
+
 
 
 
