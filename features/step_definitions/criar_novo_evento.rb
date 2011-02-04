@@ -30,12 +30,23 @@ Quando /^a rua com "([^"]*)"$/ do |rua|
   fill_in "evento[rua]", :with => rua
 end
 
-Quando /^o numero "([^"]*)"$/ do |numero|
+Quando /^o numero com "([^"]*)"$/ do |numero|
   fill_in "evento[numero]", :with => numero
 end
 
-Quando /^a cidade "([^"]*)"$/ do |cidade|
+Quando /^a cidade com "([^"]*)"$/ do |cidade|
   fill_in "evento[cidade]", :with => cidade
 end
+
+Quando /^o estado com "([^"]*)"$/ do |estado|
+  fill_in "evento[estado]", :with => estado
+end
+
+Quando /^o meu email com "([^"]*)" para confirmacao$/ do |email|
+  fill_in "evento[email]", :with => email
+end
+
+
+
 
 
