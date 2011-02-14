@@ -9,6 +9,10 @@ class EventosController < ApplicationController
   def create
     @evento = Evento.new params[:evento]
     @evento.pendente = true
+    if @evento.valid?
+      Notificacao.confirmacao_cadastro_evento(@evento).deliver
+    end
+      
     @evento.save!
 
     flash[:message] = "Evento cadastrado com sucesso"

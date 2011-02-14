@@ -50,8 +50,14 @@ Quando /^clico no botao "([^"]*)"$/ do |botao|
   click_button botao
 end
 
-Entao /^deve enviar um email de confirmacao do cadastro do evento$/ do
-  pending # express the regexp above with the code you wish you had
+Entao /^o evento criado com nome "([^"]*)" deve estar pendente$/ do |nome|
+  @evento = Evento.find_by_nome nome
+  assert @evento.pendente, 'evento nao esta pendente'
+end
+
+Entao /^deve enviar um email de confirmacao para "([^"]*)"$/ do |email|
+  mail = ActionMailer::Base.deliveries.last
+  assert [email] == mail.to
 end
 
 Entao /^deve aparecer a mensagem "([^"]*)"$/ do |mensagem|

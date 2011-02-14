@@ -6,7 +6,6 @@ Funcionalidade: Criar novo evento
   Eu quero cadastrar um novo evento
   Então outras pessoas poderão visualizar informações do evento.
 
-  @wip
   Esquema do Cenario: Criar evento
     Dado que eu estou na pagina inicial
     Quando eu vou para o formulario Cadastrar Evento
@@ -21,7 +20,8 @@ Funcionalidade: Criar novo evento
     E o estado com "<estado>"
     E o meu email com "<email>" para confirmacao
     E clico no botao "Cadastrar"
-    Entao deve enviar um email de confirmacao do cadastro do evento
+    Entao o evento criado com nome "<nome>" deve estar pendente
+    E deve enviar um email de confirmacao para "<email>"
     E deve aparecer a mensagem "<mensagem>"
   
     Exemplos:
